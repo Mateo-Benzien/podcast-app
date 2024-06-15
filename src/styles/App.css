@@ -1,0 +1,44 @@
+/* src/styles/App.css */
+.PodcastListContainer {
+    padding: 20px;
+  }
+  
+  .PodcastList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .PodcastItem {
+    cursor: pointer;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+    transition: transform 0.2s;
+  }
+  
+  .PodcastItem:hover {
+    transform: scale(1.05);
+  }
+  
+  .PodcastItemImage {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .PodcastItemTitle {
+    margin-top: 10px;
+    font-size: 1.2em;
+  }
+  
+  .PodcastDetail {
+    padding: 20px;
+  }
+  
+  .PodcastDetail img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
